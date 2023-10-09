@@ -1,1 +1,4 @@
 This repository is to use the pre-trained model for automatic Chest X-ray Report generation. 
+Paper link: https://openreview.net/forum?id=YEMH26an2bM
+
+Automated chest X-ray report generation using machine learning has emerged as a promising technology for improving the accuracy and efficiency of chest X-ray interpretation. In this paper, we present a novel approach for automated report generation that combines the power of vision transformers for image information encoding and PubMedBERT for text decoding. Our model extracts image features using a vision transformer and text features using PubMedBERT. The encoded features are then fed into a text decoder to generate standardized reports. We trained our model on a dataset of chest X-rays and corresponding report findings (a subset of the MIMIC-CXR dataset) and evaluated its performance on a small subset of the IU dataset.
